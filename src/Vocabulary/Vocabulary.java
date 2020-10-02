@@ -1,3 +1,5 @@
+package Vocabulary;
+
 public class Vocabulary {
 
     private String[] getVocabulary() {

@@ -5,7 +5,7 @@ public class StoryCollection {
 
     Story[] stories;
 
-    public StoryCollection(){
+    public StoryCollection() {
         Story[] stories = new Story[4];
         DragonStory dragon = new DragonStory();
         CatStory cat = new CatStory();
@@ -16,13 +16,12 @@ public class StoryCollection {
         stories[1] = cat;
         stories[2] = pumpkin;
         stories[3] = rocket;
-        this.stories= stories;
+        this.stories = stories;
     }
 
-    public Story getUnreadStory(){
-        for (Story item: stories)
-        {
-            if (item.getIsRead()== false){
+    public Story getUnreadStory() {
+        for (Story item : stories) {
+            if (item.getIsRead() == false) {
                 return item;
             }
         }

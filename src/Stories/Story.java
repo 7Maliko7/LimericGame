@@ -7,14 +7,16 @@ public abstract class Story {
 
     private boolean isRead;
 
-    public void setIsRead (boolean isRead){
+    public void setIsRead(boolean isRead) {
         this.isRead = isRead;
     }
 
 
-    public boolean getIsRead (){
+    public boolean getIsRead() {
         return isRead;
-    };
+    }
+
+    ;
 
     protected Word[] wordsArr;
 

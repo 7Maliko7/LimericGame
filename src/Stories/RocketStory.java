@@ -14,11 +14,11 @@ public class RocketStory extends Story {
         for (int i = 0; i <= this.WORD_COUNT - 1; i++) {
             wordsArray[i] = new Word();
         }
-            wordsArray[0].setPartSentence("What color?");
-            wordsArray[1].setPartSentence("What did he doing?");
-            wordsArray[2].setPartSentence("Which?");
-            wordsArray[3].setPartSentence("Who?");
-            return wordsArray;
-        }
+        wordsArray[0].setPartSentence("What color?");
+        wordsArray[1].setPartSentence("What did he doing?");
+        wordsArray[2].setPartSentence("Which?");
+        wordsArray[3].setPartSentence("Who?");
+        return wordsArray;
+    }
 
 }
